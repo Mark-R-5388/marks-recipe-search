@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	background: #096e00;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav h1 {
+	margin: 0;
+}
+
+.recipes-container {
+	border: 1px solid green;
+	margin: 2rem auto;
+	max-width: 1200px;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: space-between;
+}
+
+.card-container {
+	border: 1px solid red;
+	width: 300px;
+	display: flex;
+}
+
+.card-image {
+	width: 30%;
+	object-fit: cover;
+}
+
+.content-container {
+	width: 70%;
+}
+
+@media screen and (max-width: 985px) {
+	.card-container {
+		width: 500px;
+	}
+}
